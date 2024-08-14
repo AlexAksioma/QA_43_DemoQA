@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8f1caec-89c4-47fc-86f0-d49fa7045c3f" name="Changes" comment="added regular, locators">
-      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/ExplicitWaits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/RegularExpression.java" afterDir="false" />
+    <list default="true" id="a8f1caec-89c4-47fc-86f0-d49fa7045c3f" name="Changes" comment="added waits">
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AutomationPracticeFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FormsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/HomeTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -46,20 +49,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/QA_Auto_Projects/QA_43/QA_43_DemoQA&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ExplicitWaits.explicitWait">
-    <configuration name="MyCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="experiments.MyCollections" />
-      <module name="QA_43_DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="experiments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.HomeTests.firstTest">
     <configuration name="MyExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="experiments.MyExceptions" />
       <module name="QA_43_DemoQA" />
@@ -104,6 +94,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeTests.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_43_DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Locators.locatorsCss" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA_43_DemoQA" />
       <extension name="coverage">
@@ -124,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeTests.firstTest" />
         <item itemvalue="TestNG.ExplicitWaits.explicitWait" />
         <item itemvalue="TestNG.Locators.locatorsCss" />
         <item itemvalue="Application.RegularExpression" />
         <item itemvalue="Application.MyExceptions" />
-        <item itemvalue="Application.MyCollections" />
       </list>
     </recent_temporary>
   </component>
@@ -149,12 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722795673656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added waits">
+      <option name="closed" value="true" />
+      <created>1723400542343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723400542343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added exceptions, collections" />
     <MESSAGE value="added regular, locators" />
-    <option name="LAST_COMMIT_MESSAGE" value="added regular, locators" />
+    <MESSAGE value="added waits" />
+    <option name="LAST_COMMIT_MESSAGE" value="added waits" />
   </component>
 </project>
