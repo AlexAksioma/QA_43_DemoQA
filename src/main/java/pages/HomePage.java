@@ -18,6 +18,7 @@ public class HomePage extends BasePage{
     WebElement btnForms;
     //WebElement btnForms = driver.findElement(By.xpath("//div[@class='category-cards']/div[2]"));
     public FormsPage clickBtnForms(){
+        hideFooter();
         btnForms.click();
         return new FormsPage(driver);
     }

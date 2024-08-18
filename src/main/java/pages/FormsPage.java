@@ -16,6 +16,7 @@ public class FormsPage extends BasePage{
     WebElement btnPracticeForm;
 
     public AutomationPracticeFormPage clickBtnPracticeForm(){
+        hideFooter();
         btnPracticeForm.click();
         return new AutomationPracticeFormPage(driver);
     }
