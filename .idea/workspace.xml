@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8f1caec-89c4-47fc-86f0-d49fa7045c3f" name="Changes" comment="started method typeStudentForm" />
+    <list default="true" id="a8f1caec-89c4-47fc-86f0-d49fa7045c3f" name="Changes" comment="added phonebook">
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/StateCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/StudentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutomationPracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutomationPracticeFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,30 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/QA_Auto_Projects/QA_43/QA_43_DemoQA",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/QA_Auto_Projects/QA_43/QA_43_DemoQA&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.PracticeFormTests.practiceFormPositiveTest">
-    <configuration name="RegularExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="experiments.RegularExpression" />
-      <module name="QA_43_DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="experiments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="TestNG.PracticeFormTests.practiceFormPositiveTest_softAssert">
     <configuration name="ExplicitWaits.explicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA_43_DemoQA" />
       <extension name="coverage">
@@ -129,13 +123,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PracticeFormTests.practiceFormPositiveTest_softAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_43_DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PracticeFormTests" />
+      <option name="METHOD_NAME" value="practiceFormPositiveTest_softAssert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PracticeFormTests.practiceFormPositiveTest_softAssert" />
         <item itemvalue="TestNG.PracticeFormTests.practiceFormPositiveTest" />
         <item itemvalue="TestNG.HomeTests.firstTest" />
         <item itemvalue="TestNG.ExplicitWaits.explicitWait" />
         <item itemvalue="TestNG.Locators.locatorsCss" />
-        <item itemvalue="Application.RegularExpression" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724005499420</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added phonebook">
+      <option name="closed" value="true" />
+      <created>1724259199797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724259199797</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +209,7 @@
     <MESSAGE value="added waits" />
     <MESSAGE value="added pages, enum" />
     <MESSAGE value="started method typeStudentForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="started method typeStudentForm" />
+    <MESSAGE value="added phonebook" />
+    <option name="LAST_COMMIT_MESSAGE" value="added phonebook" />
   </component>
 </project>

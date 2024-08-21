@@ -31,8 +31,22 @@ public class AutomationPracticeFormPage extends BasePage {
     WebElement inputDateOfBirth;
     @FindBy(id = "subjectsInput")
     WebElement inputSubjects;
+    @FindBy(id = "currentAddress")
+    WebElement textAreaCurrentAddress;
+    @FindBy(id = "react-select-3-input")
+    WebElement inputState;
+    @FindBy(id = "react-select-4-input")
+    WebElement inputCity;
+    @FindBy(xpath = "//button[text()='Submit']")
+    WebElement btnSubmit;
+    //==============================================
+    @FindBy(id = "example-modal-sizes-title-lg")
+    WebElement textThanksFor;
 
-    public void typeStudentForm(StudentDto student) {
+    @FindBy(xpath = "//tbody/tr[2]/td[last()]")
+    WebElement modalBodyEmail;
+
+    public AutomationPracticeFormPage typeStudentForm(StudentDto student) {
         inputName.sendKeys(student.getName());
         inputLastName.sendKeys(student.getLastName());
         inputEmail.sendKeys(student.getEmail());
@@ -41,11 +55,24 @@ public class AutomationPracticeFormPage extends BasePage {
         typeFieldDateOfBirth(student.getDateOfBirth());
         typeFieldSubjects(student.getSubjects());
         typeFieldHobbies(student.getHobbies());
+        textAreaCurrentAddress.sendKeys(student.getCurrentAddress());
+
+        inputState.sendKeys(student.getState());
+        inputState.sendKeys(Keys.ENTER);
+        inputCity.sendKeys(student.getCity());
+        inputCity.sendKeys(Keys.ENTER);
+
+        return this;
+    }
+
+    public AutomationPracticeFormPage clickBtnSubmit(){
+        btnSubmit.click();
+        return this;
     }
 
     private void typeFieldHobbies(List<Hobbies> hobbies) {
         for (Hobbies h : hobbies) {
-            switch (h){
+            switch (h) {
                 case MUSIC:
                     driver.findElement(By.cssSelector(h.getLocator())).click();
                     break;
@@ -83,5 +110,9 @@ public class AutomationPracticeFormPage extends BasePage {
     private void clickGender(Genders gender) {
         WebElement elementGender = driver.findElement(By.xpath(gender.getLocator()));
         elementGender.click();
+    }
+
+    public boolean isTextInElementPresent_textThanksFor(){
+        return isTextInElementPresent(textThanksFor, "Thanks for submitting the form", 3);
     }
 }

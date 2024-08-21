@@ -23,4 +23,7 @@ public class StudentDto {
     private String dateOfBirth;
     private String subjects;
     private List<Hobbies> hobbies;
+    private String currentAddress;
+    private String state;
+    private String city;
 }
