@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8f1caec-89c4-47fc-86f0-d49fa7045c3f" name="Changes" comment="added pages, enum">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Hobbies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/StudentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutomationPracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutomationPracticeFormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FormsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-    </list>
+    <list default="true" id="a8f1caec-89c4-47fc-86f0-d49fa7045c3f" name="Changes" comment="started method typeStudentForm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,15 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/QA_Auto_Projects/QA_43/QA_43_DemoQA&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/QA_Auto_Projects/QA_43/QA_43_DemoQA",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.PracticeFormTests.practiceFormPositiveTest">
     <configuration name="RegularExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="experiments.RegularExpression" />
@@ -180,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723659940728</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="started method typeStudentForm">
+      <option name="closed" value="true" />
+      <created>1724005499420</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724005499420</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +188,7 @@
     <MESSAGE value="added regular, locators" />
     <MESSAGE value="added waits" />
     <MESSAGE value="added pages, enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pages, enum" />
+    <MESSAGE value="started method typeStudentForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="started method typeStudentForm" />
   </component>
 </project>
